@@ -62,6 +62,8 @@ bool prompt(std::vector<Core> &cores) {
 
 		Core &useCore = *it;
 
+		// todo check other cores for contents for MESI and MOESI protocols
+
 		const auto busAction = useCore.run(action);
 
 		for (auto &c : cores)
