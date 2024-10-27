@@ -5,9 +5,6 @@
 #ifndef CCPROTOCOL_H
 #define CCPROTOCOL_H
 
-enum CCProtocol {
-  MSI,
-  MESI
-};
+enum CCProtocol { MSI, MESI, MOESI, MESIF, Dragon };
 
-#endif //CCPROTOCOL_H
+#endif // CCPROTOCOL_H
